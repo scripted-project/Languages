@@ -1,0 +1,70 @@
+{
+    "[]": "parameter (required)",
+    "{}": "parameter",
+    "file_ext": ".cx",
+    "keywords": {
+        "break": {
+            "name": "break",
+            "tokens": [
+                "source.cx.keyword",
+                "source.cx.keyword.loop",
+                "source.cx.keyword.loop.break"
+            ],
+            "function": "breakFunc(ctx)",
+            "docstring": "Breaks out of loops. Can only be used in loops.",
+            "modifiers": {
+                "local": {
+                    "docstring": "Breaks out of the current loop.",
+                    "usage": "`local break`"
+                }, 
+                "global": {
+                    "docstring": "Breaks out of all loops.",
+                    "usage": "`global break`"
+                }, 
+                "with": {
+                    "docstring": "Breaks out with a value",
+                    "usage": "`break with [value]`"
+                }
+            }
+        },
+        "local": {
+            "name": "local",
+            "tokens": [
+                "source.cx.keyword",
+                "source.cx.keyword.local"
+            ],
+            "function": null,
+            "docstring": "Defines wether a keyword should be performed locally and globally (is passed as context)."
+        },
+        "global": {
+            "name": "global",
+            "tokens": [
+                "source.cx.keyword",
+                "source.cx.keyword.global"
+            ],
+            "function": null,
+            "docstring": "Defines wether a keyword should be performed locally or globally (is passed as context)."
+        },
+        "continue": {
+            "name": "continue",
+            "tokens": [
+                "source.cx.keyword",
+                "source.cx.keyword.loop",
+                "source.cx.keyword.loop.continue"
+            ],
+            "function": null,
+            "docstring": "Jumps back to the beginning of the loop.",
+            "usage": "continue"
+        }
+    },
+    "other": {
+        "callbacks": {
+            "subscription": {
+                "usage": "[action].[activator] += ctx => [function]({contextargs})"
+            },
+            "unsubscription": {
+                "usage": "[action].[activator] -= ctx => [function]({contextargs)}"
+            }
+        }
+    }
+}
