@@ -1,4 +1,11 @@
 import json
-from scripts.keywords import breakFunc
+import scripts.keywords as keywords
 
-data = json
+f = open("cx/data.json")
+data = json.load(f)
+
+
+def run(path):
+    with open(path, 'r') as file:
+        lines = file.readlines()
+        
