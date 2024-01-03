@@ -1,2 +1,4 @@
+import json
 from scripts.keywords import breakFunc
-pretendctx = {}
+
+data = json
