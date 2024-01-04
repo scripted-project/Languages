@@ -3,6 +3,21 @@
 # action -= ctx -> func
 # ^ unsubscribe from action 
 
+class Functions:
+    def __init__(self):
+        self.functions = {}
+    
+    def add(self, name, implementation):
+        self.functions[name] = implementation
+    
+    def remove(self, name):
+        if name in self.functions:
+            del self.functions[name]
+            
+    def call(self, name, *args):
+        if name in self.functions:
+            return self.functions[name](*args)
+
 class Events:
     def __init__(self) -> None:
         self.callbacks = {}

@@ -1,4 +1,4 @@
-from nltk.tokenizer import word_tokenize
+from nltk.tokenize import word_tokenize
 
 class Tokenizer:
     def lex(self, source: str):
