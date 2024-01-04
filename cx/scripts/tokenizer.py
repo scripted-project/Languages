@@ -17,7 +17,15 @@ class Tokenizer:
             
             for context in data["contexts"]:
                 pattern = word_tokenize(context)
-                if pattern
+                first = 0
+                n = 0
+                for token in pattern:
+                    if not token.startsWith("[") and not token.endsWith("]"): #these dont exist
+                        first = n
+                    n += 1
+                if pattern[first] == tokens[i + first]:
+                    for token in pattern:
+                        token
                 
                 
                 
