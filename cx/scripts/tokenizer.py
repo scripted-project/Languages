@@ -8,12 +8,16 @@ class Tokenizer:
     def lex(self, source: str):
         tokens = word_tokenize(source)
         identifed = []
-        
+        i = 0
         for token in tokens:
             for type in data["types"]:
                 if token in type["tokens"]: 
                     identified.append((token, type["name"]))
                     continue
+            
+            for context in data["contexts"]:
+                pattern = word_tokenize(context)
+                if pattern
                 
                 
                 
