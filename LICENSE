@@ -1,24 +1,27 @@
-The languages* are for use in projects with no need for consent. These languages may not be edited unless authorization is given by the creators**. Authorization must come in a verbal or written form. If this project is modified in an unauthorized way, the creators** reserve the right to perform any action permitted for breaching the MIT license.
+The following license applies to the coding languages C eXpanded and Assembly Plus, collectively referred to as "languages," developed by The Scripted Project, consisting of Jewels, Cas, and Shadowtech.
 
-The languages* are premitted to be used but only with credit given to the creators** in the form of the credit phrases\***. The langauges\* can be edited in a local setting. 
+1. **Editing Authorization:**
+   - Any edits to the languages require explicit authorization from the creators. To obtain authorization, contact the creators via:
+        - Discord: https://discord.gg/pkwrjeTgex
+        - Email: None as of now
+        - Our site: None as of now
 
-The languages C and Assembly belong to the orginal creators and our languages* are based of of them.
+2. **Unauthorized Modifications:**
+   - Unauthorized modifications will result in the creators taking action permitted under the MIT license. This may include, but is not limited to, revoking the right to use the languages and/or other legal action.
 
-If a party wishes to contribute, the party may submit a pull request with changes. If a party wishes to create a module, package, or libary they may do so and distrubute it in their own methods.
+3. **Usage with Credit:**
+   - The languages can be used in projects with credit given to the creators. Credit must be provided in the form of the following phrases:
+     - Written in [language]
+     - [Language] created by the Scripted Project
+   - Credit must be given in either the source code, documentation, or application.
 
-Notes
-- Breaching rules are punishable yet not severe.
+4. **Local Editing:**
+   - The languages can be edited in a local setting, meaning either a fork or a downloaded version of the language, with the understanding that any unauthorized modifications to the global download, or this repository, will be subject to the consequences outlined in Section 2.
 
-\* languages
-- C eXpanded
-- Assembly Plus
+5. **Contribution Guidelines:**
+   - Contributions are welcome through pull requests. Contributors should adhere to specified coding standards and conventions outlined in the project documentation.
 
-\** creators
-- The Scripted Project:
-    - Jewels
-    - Cas
-    - Shadowtech
+6. **Punishment for Breaching:**
+   - Breaching rules is punishable, and the consequences may include, but are not limited to, the actions permitted under the MIT license. However, these consequences are not intended to be severe.
 
-\*** credit phrases
-- Written in [language]
-- [Language] created by the Scripted Project
+Note: The languages C eXpanded and Assembly Plus are based on C and Assembly, which belong to their original creators.
