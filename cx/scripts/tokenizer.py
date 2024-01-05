@@ -4,6 +4,8 @@ import json
 f = open("cx/data.json")
 data = json.load(f)
 
+def tokenizer(*lines):
+    pass
 
 def identify(source: str):
     tokens = word_tokenize(source)
@@ -26,7 +28,7 @@ def identify(source: str):
                 elif token.startswith("[") and token.endswith("]"):
                     vars.append((token, j))
 
-            if pattern_tokens[definite[0][1]] == tokens[i + definite[0][1]]:
+            if i + j < len(tokens) and pattern_tokens[definite[0][1]] == tokens[i + j]:
                 for j, token in enumerate(pattern_tokens):
                     for var in vars:
                         if var[1] == j:
@@ -38,5 +40,6 @@ def identify(source: str):
                 i += len(pattern_tokens) - 1
 
         i += 1
+    return identified
                     
                 
