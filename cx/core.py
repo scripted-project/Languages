@@ -10,4 +10,4 @@ def run(path):
     with open(path, 'r') as file:
         lines = file.readlines()
 
-print(tk.tokenize("action += ctx -> func"))
+print(tk.identify("action += ctx -> func"))
