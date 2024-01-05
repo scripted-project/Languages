@@ -35,8 +35,8 @@ Coming soon!
 To write code using one of our langauges, you must have:
 - Installed the correct programs:
    - C eXpanded:
-      - EXpanded C Complier (XCC, unfinished)
-      - EXpanded C Interpreter (XCI, unfinished)
+      - EXpanded C Complier (CXC, unfinished)
+      - EXpanded C Interpreter (CXI, unfinished)
       - Note: Only one is needed.
    - Assembly Plus:
       - Assembly Plus Complier (ASPC, unfinished)
