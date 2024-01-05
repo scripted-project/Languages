@@ -1,7 +1,24 @@
-This code is for use in other projects. The languages
+The languages* are for use in projects with no need for consent. These languages may not be edited unless authorization is given by the creators**. Authorization must come in a verbal or written form. If this project is modified in an unauthorized way, the creators** reserve the right to perform any action permitted for breaching the MIT license.
+
+The languages* are premitted to be used but only with credit given to the creators** in the form of the credit phrases\***. The langauges\* can be edited in a local setting. 
+
+The languages C and Assembly belong to the orginal creators and our languages* are based of of them.
+
+If a party wishes to contribute, the party may submit a pull request with changes. If a party wishes to create a module, package, or libary they may do so and distrubute it in their own methods.
+
+Notes
+- Breaching rules are punishable yet not severe.
+
+\* languages
 - C eXpanded
 - Assembly Plus
-are to be used as programming languages. This code can be Read and Used but not Edited.
-To contribute, you need to make a pull request on the github page. The language instance (the code used by an individual party) may be changed and modified.
 
-This code and languages are owned by the Scripted Project
+\** creators
+- The Scripted Project:
+    - Jewels
+    - Cas
+    - Shadowtech
+
+\*** credit phrases
+- Written in [language]
+- [Language] created by the Scripted Project
