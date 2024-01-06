@@ -76,3 +76,10 @@ If you have any questions or concerns, feel free to reach out to the creators:
 - Jewels
 - Cas
 - Shadowtech
+
+## Other
+- Language Ideas
+  - WSL (Web Structure Language)
+  - Ultimate Python
+  - SCIL (Server Communication Interface Language)
+  - HyperScript
