@@ -1,4 +1,4 @@
-# Langauges
+# Scripted Languages
 
 A rewriting of the langauges C and Assembly.
 
