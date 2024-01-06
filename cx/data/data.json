@@ -66,16 +66,6 @@
                 "usage": "[action].[activator] -= ctx => [function]({contextargs)}"
             }
         }
-    },
-    "types": {
-        "KEYWORD": {"name": "KEYWORD", "tokens": ["break", "local", "global", "continue"]},
-        "DECLARATION.DEFINE": {"name": "DECLARATION.DEFINE", "tokens": ["define"]},
-        "DECLARATION.CLASS": {"name": "DECLARATION.CLASS", "tokens": ["class"]},
-        "DECLARATION.TYPE": {"name": "DECLARATION.TYPE", "tokens": ["char", "string", "int", "float", "hexadecimal"]},
-        "CALLBACK.SIGN": {"name": "CALLBACK.SIGN", "tokens": ["->"]},
-        "CALLBACK.ACTION": {"name": "CALLBACK.ACTION", "tokens": []}
-    },
-    "contexts": {
-        "CALLBACK.SUBSCRIBE": "[CALLBACK.ACTION] += ctx -> [CALLBACK]"
     }
+    
 }
