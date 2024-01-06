@@ -4,6 +4,8 @@ A rewriting of the langauges C and Assembly.
 
 ## Table of Contents
 - [Languages](#languages)
+  - [CX](#c-expanded)
+  - [ASM+](#assembly-plus)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
@@ -13,6 +15,7 @@ A rewriting of the langauges C and Assembly.
   - [Contribution Guidelines](#contribution-guidelines)
 - [License](#license)
 - [Contact](#contact)
+- [Other](#other)
 
 ## Languages
 
@@ -49,7 +52,7 @@ Coming soon!
 
 ## Usage
 
-See [documentation]().
+See [documentation](docs/main.md).
 
 ## Editing and Contributing
 
