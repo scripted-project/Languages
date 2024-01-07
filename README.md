@@ -35,12 +35,13 @@ Coming soon!
 
 ### Prerequisites
 
-To write code using one of our langauges, you must have:
+To write code using one of our languages, you must have:
 - Installed the correct programs:
    - C eXpanded:
-      - EXpanded C Complier (CXC, unfinished)
-      - EXpanded C Interpreter (CXI, unfinished)
-      - Note: Only one is needed.
+      - CX Main (CXM, unfinished) which includes:
+        - CX Complier
+        - CX Interpreter
+        - CX Terminal
    - Assembly Plus:
       - Assembly Plus Complier (ASPC, unfinished)
       - Assembly Plus Interpreter (ASPI, not required, unfinished)
@@ -81,7 +82,7 @@ If you have any questions or concerns, feel free to reach out to the creators:
 - Shadowtech
 
 ## Other
-- Language Ideas
+- Language Ideas:
   - WSL (Web Structure Language)
   - Ultimate Python
   - SCIL (Server Communication Interface Language)

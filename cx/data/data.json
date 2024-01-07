@@ -1,6 +1,4 @@
 {
-    "[]": "parameter (required)",
-    "{}": "parameter",
     "file_ext": ".cx",
     "keywords": {
         "break": {

@@ -1,8 +1,3 @@
-# action += ctx -> func
-# ^ subscribe to action 
-# action -= ctx -> func
-# ^ unsubscribe from action 
-
 class Functions:
     def __init__(self):
         self.functions = {}
@@ -22,11 +17,11 @@ class Events:
     def __init__(self) -> None:
         self.callbacks = {}
         
-    def remove_callback(self, event, callback):
+    def remove(self, event, callback):
         if event in self.callbacks:
             self.callbacks[event].remove(callback)
     
-    def add_callback(self, event, callback):
+    def add(self, event, callback):
         if event not in self.callbacks:
             self.callbacks[event] = []
         self.callbacks[event].append(callback)

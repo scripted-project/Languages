@@ -1,7 +1,7 @@
 C EXpanded:
   - Todos:
     - Parser
-    - Tokenizer
+    - Tokenizer: Done
     - Keywords
     - Callbacks
     - data.json:

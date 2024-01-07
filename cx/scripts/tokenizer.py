@@ -59,13 +59,25 @@ def identify(source: str):
     i = 0
     while i < len(tokens):
         for context_key, context in data["contexts"].items():
-            context = tokenize(context)
+            context = tokenize(context["string"])
             if cut_off_string(context[0], "<", ">") == tokens[i]: # first word match
                 j = 0
                 for ctx_token in context:
+                    if j < len(context):
+                        break
                     identified.append((tokens[i + j], extract_content_between_brackets(ctx_token)))
                     j += 1
-                i += j - 1        
+                i += j - 1
                     
         i += 1
     return identified
+
+def tag(source: str):
+    tokens = identify(source)
+    
+    varstr = ""
+    for token in tokens:
+        varstr += token[1]
+    for ctx_key, ctx in data["contexts"].items():
+        if varstr == ctx["varstr"]:
+            return ctx_key

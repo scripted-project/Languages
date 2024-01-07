@@ -1,2 +1,0 @@
-def breakFunc(loop):
-    pass
