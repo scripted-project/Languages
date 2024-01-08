@@ -1,3 +1,4 @@
 {
-    "file_ext": [".asmp", "ap", ".asm+"]
+    "file_ext": [".asmp", "asp", ".asm+"],
+    "refrence": {}
 }

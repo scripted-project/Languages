@@ -13,7 +13,7 @@ def clear():
 def explore(root_dir):
     while True:
         clear()
-        print("Chose a CX file:")
+        print("Chose a CX file to run:")
         print(f"Current directory: {root_dir}")
 
         files = [f for f in listdir(root_dir) if path.isfile(path.join(root_dir, f))]
@@ -100,11 +100,24 @@ user_input = input("Chose 1 of 6 options: ")
 
 if user_input == "A":
     clear()
-    output_path = input("Output path: (local for local directory)")
+    output_path = input("Output path (local for local directory): ")
     if output_path == "local":
         output_path = f"{getcwd()}\output.bin"
-    #cxc(explore(getcwd()))
+    cxc(explore(getcwd()), output_path)
     print("Finished!")
 
 if user_input == "E":
-    pass
+    print(f"""
+        CX Main
+    v0.0.1  Testing
+""")
+    f = open("LICENSE")
+    content = f.read()
+    print(f"""
+License:
+{content}
+""")
+    del f
+    del content
+    
+    

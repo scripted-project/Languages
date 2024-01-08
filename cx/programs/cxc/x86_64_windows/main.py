@@ -1,4 +1,4 @@
-import json
+import json, threading
 from scripts.tokenizer import identify, tag
 
 def hexadecimal(input_value):
@@ -25,6 +25,9 @@ mc_ref = json.load(mcrefile)
 tkrefile = open("cx/data/tokens.json")
 tk_ref = json.load(tkrefile)
 
+vardict = {}
+funcdict = {}
+
 def cxc(input_path, output_path):
     output = open(output_path, 'wb')
     input = open(input_path, 'r')
@@ -40,7 +43,30 @@ def cxc(input_path, output_path):
                 "tag": tagged if tagged is not None else None
             }
             if lines[str(i)]["tag"] == None: return 500
+            if "VARIABLE" in lines[str(i)]["tag"]:
+                temp = []
+                for token in lines[str(i)]["tokens"]:
+                    if token[1] == "VARIABLE":
+                        temp.append(token[0])
+                        for token2 in lines[str(i)]["tokens"]:
+                            if token2[1] == "VARIABLE.VALUE":
+                                temp.append(token2[0])
+                if len(temp) < 2: return 500
+                vardict[temp[0]] = temp[1]
             i += 1
+        
+        assembly = """
+        section .text
+            global _start
+        _start:
+        """
+        layers = 0
+        for line_number, line_data in lines:
+            if line_data["tag"] in mc_ref:
+                assembly += f"; {line_number}: {line_data['tag']}\n"
+                for line in mc_ref[line_data["tag"]]:
+                    assembly += f"{'    ' * layers + 1}{line}\n"
+                    
             
     except Exception as e:
         pass

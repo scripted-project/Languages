@@ -4,8 +4,8 @@ A rewriting of the langauges C and Assembly.
 
 ## Table of Contents
 - [Languages](#languages)
-  - [CX](#c-expanded)
-  - [ASM+](#assembly-plus)
+- [CX](#c-expanded)
+- [ASM+](#assembly-plus)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
@@ -23,11 +23,12 @@ This repository contains two coding languages developed by The Scripted Project:
 - C eXpanded
 - Assembly Plus
 
-### C eXpanded
+## C eXpanded
 
-Coming soon!
+A rewriting of C, like C# and C++.
 
-### Assembly Plus
+
+## Assembly Plus
 
 Coming soon!
 
