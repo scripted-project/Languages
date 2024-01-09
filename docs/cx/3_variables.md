@@ -29,6 +29,12 @@ example: `var char character = 'a'`
 A array of characters  
 example: `var str string = "abcdefg"`
 ## Integer (int)
+A whole number.  
+example: `var int integer = 1`  
+note: Characters are actually integers representing characters.
+### List (list)
+A List of values or variables
+example: `var list list_example = ["abc", 1, 'a', ["list"]]`
 # What now?
 [Next](4_base-functions.md)  
 [Home](1_getting-started.md)  
