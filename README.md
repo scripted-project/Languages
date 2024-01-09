@@ -25,7 +25,7 @@ This repository contains two coding languages developed by The Scripted Project:
 
 ## C eXpanded
 
-A rewriting of C, like C# and C++.
+A rewriting of C, like C# and C++.  
 CX [Docs](docs/cx/1_getting-started.md),
 
 ## Assembly Plus
